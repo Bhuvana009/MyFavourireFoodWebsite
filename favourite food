@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        td,
+        td {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+        
+        table {
+            width: 100px;
+            text-align: left
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <div style=" padding: 48;">
+        <span style="background-color:lightsalmon;font-size: 24px; font-family: sans-serif;">Home</span>
+        <span style="background-color:lightsalmon;font-size: 24px; font-family: sans-serif;">Food</span>
+        <span style="background-color:lightsalmon;font-size: 24px; font-family: sans-serif;">about</span>
+    </div>
+    <div>
+        <ol>
+            <li>
+                <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Biryani_Home.jpg/1200px-Biryani_Home.jpg">
+                Biryani </a></li>
+            <li> <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzlWONBsM-Hh-GeWJmulFuVipAC7epBnOZeA&usqp=CAU">
+                Manchuria </a>
+            </li>
+            <li> Pani_puri</li>
+            <li> Samosa</li>
+
+        </ol>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" alt="Food" width="500" height="500">
+    </div>
+    <div>
+        <details>
+            <summary>I'm Foodie</summary>
+            <p> i love spicy foods more</p>
+        </details>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th colspan=4>
+                    invoice
+                </th>
+
+            </tr>
+            <tr>
+                <td> Name/description</td>
+                <td> Chocolate_cake</td>
+                <td> SubTotal</td>
+                <td> Tax </td>
+                <td> Grand Total </td>
+            </tr>
+            <tr>
+                <td> Bhuvana</td>
+                <td> Yes</td>
+                <td>150</td>
+                <td>50 </td>
+                <td> 200</td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+
+</html>
